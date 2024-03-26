@@ -37,7 +37,7 @@ export const Header = () => {
     onInit: (swiper: SwiperInit | null) => {
       // useRef 를 이용해서 Swiper 를 저장한다.
       swHeaderLogo.current = swiper;
-      console.log("상단 슬라이드", swHeaderLogo.current);
+      // console.log("상단 슬라이드", swHeaderLogo.current);
       swHeaderLogo.current?.autoplay.stop();
     },
   };

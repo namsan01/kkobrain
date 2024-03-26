@@ -7,7 +7,6 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { IBanner } from "../../types/type";
 import axios, { AxiosResponse } from "axios";
-import { error } from "console";
 
 export const MainTop = () => {
   const path = "./images";
@@ -18,7 +17,7 @@ export const MainTop = () => {
   const swiperOption = {
     loop: true,
     autoplay: {
-      delay: 2500,
+      delay: 500,
       disableOnInteraction: false,
     },
     pagination: {
@@ -41,6 +40,18 @@ export const MainTop = () => {
 
   const getBannerList = () => {
     const jsonUrl = "./api/banner.json";
+    // fetch(jsonUrl)
+    //   .then(res => {
+    //     return res.json();
+    //   })
+    //   .then(data => {
+    //     setBannerList(data);
+    //   })
+    //   .catch(err => {
+    //     console.log(err);
+    //   });
+
+    // axios 는 가져온 자료를 data 속성에 담아둠.
     axios
       .get<IBanner[]>(jsonUrl)
       .then((response: AxiosResponse<IBanner[], any>) =>
