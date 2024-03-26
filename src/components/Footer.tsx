@@ -8,12 +8,7 @@ export const Footer = () => {
             <a href="#" className="footer-info-logo">
               <img src="images/etc/logo-kakao-footer.png" alt="" />
             </a>
-            <p className="footer-info-txt">
-              카카오브레인의 혁신은 모든 크루의 물음에서 시작합니다. AI 없이는
-              상상할 수 없는 세상을 만들기 위해선 생각하지 못한 많은 물음이
-              필요합니다. 세상을 변화시킬 수 있는 새로운 물음을 던질 크루를
-              기다립니다.
-            </p>
+            <p className="footer-info-txt">카카오브레인의 혁신은 모든 크루의 물음에서 시작합니다. AI 없이는 상상할 수 없는 세상을 만들기 위해선 생각하지 못한 많은 물음이 필요합니다. 세상을 변화시킬 수 있는 새로운 물음을 던질 크루를 기다립니다.</p>
             <a href="#" className="footer-info-link">
               지원하러 가기
             </a>

@@ -1,10 +1,4 @@
 // 로고 슬라이드
-// jQuery 줄여서 타이핑 $
-// $(대상) 대상을 찾아라
-// $(윈도우 객체) 준비가 되면
-$(window).ready(function () {
-  console.log("준비됐니?");
-});
 window.addEventListener("load", function () {
   // Logo Swiper
   const swHeaderLogo = new Swiper(".swLogo", {
@@ -278,6 +272,7 @@ window.addEventListener("load", function () {
     return swBannerElement;
   };
 });
+
 // Card 데이터 출력
 window.addEventListener("load", function () {
   // 초기로딩시 처리
