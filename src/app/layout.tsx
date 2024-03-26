@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "클론 코드를 통한 프로젝트",
   themeColor: "#000000",
   viewport: { width: "device-width", initialScale: 1 },
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {
