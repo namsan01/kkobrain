@@ -20,6 +20,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           name="naver-site-verification"
           content="08fc601fdbc31a914928df033987d05c7f5caefd"
         />
+        <link
+          rel="canonical"
+          href="https://kkobrain-namsan01.vercel.app"
+        ></link>
       </head>
       <body>
         <noscript>You need to enable JavaScript to run this app.</noscript>
